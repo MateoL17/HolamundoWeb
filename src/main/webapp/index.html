@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hola mundo</title>
+</head>
+<body>
+<h1>Hola mundo</h1>
+<a href="/holamundo/holaServlet">Saludar desde el servlet</a>
+<br>
+<div>
+    <form action =/holamundo/holaServlet method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre"><br>
+        <label for="Apellido">Apellido:</label><br>
+        <input type="text" id="apellido" name="apellido"><br>
+        <label for="Direccion">Direccion:</label><br>
+        <input type="text" id="direccion" name="direccion"><br>
+        <label for="Num de Cedula">Numero de Cedula:</label><br>
+        <input type="number" id="num de cedula" name="num_de_cedula"><br>
+        <label for="Fecha de Nacimiento">Fecha de Nacimiento:</label><br>
+        <input type="date" id="fecha de nacimiento" name="fecha_nacimiento"><br>
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
+
+    </form>
+</div>
+<a href="/holamundo/parametros?id=1235"> Enviando el id</a>
+</body>
+</html>
